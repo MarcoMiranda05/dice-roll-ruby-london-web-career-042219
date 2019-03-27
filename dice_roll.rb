@@ -4,8 +4,7 @@
 
 def roll
   Array.new(1, 2, 3, 4, 5, 6)
-  
-  rand
+  rand Array
 end
 
 puts roll
